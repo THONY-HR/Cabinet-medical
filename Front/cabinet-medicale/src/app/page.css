@@ -1,0 +1,9 @@
+:root {
+    --background: #171717;
+}
+
+.Page {
+    background-color: var(--background);
+    padding: 1%;
+    height: auto; /* ou min-height: 80vh; pour éviter que ce soit trop petit */
+}

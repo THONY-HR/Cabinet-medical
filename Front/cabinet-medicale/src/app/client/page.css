@@ -1,0 +1,8 @@
+.consultation-list-container {
+  max-width: 700px;
+  margin: 40px auto 0 auto;
+  padding-left: 220px; /* Ajuste selon la largeur de ta sidebar */
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+} 

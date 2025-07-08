@@ -1,0 +1,26 @@
+:root {
+    --background: #097077;
+}
+
+.flex{
+    z-index: 999;
+}
+
+.header {
+    background-color: var(--background);
+    padding: 1%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 50;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 2px 16px #0002;
+}
+.header + * {
+    /* Pour éviter que le contenu passe sous le header */
+    margin-top: 20vh;
+    margin-bottom: 5%;
+}

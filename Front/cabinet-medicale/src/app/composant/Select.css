@@ -1,0 +1,22 @@
+.custom-select {
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    padding: 0.5rem 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
+    background: #fff;
+    color: #222;
+    font-size: 1rem;
+}
+.custom-select:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px #60a5fa44;
+}
+.custom-select:hover {
+    border-color: #2563eb;
+}
+
+.custom-select option {
+    color: #111;
+    background: #fff;
+}
